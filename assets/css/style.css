@@ -40,6 +40,7 @@ body {
         line-height: 49px;
         border-bottom: 3px solid #ddd;
         padding-bottom: 20px;
+        padding-left: 20px;
     
     }
     
@@ -252,10 +253,9 @@ body {
             max-width: 575px;
         }
         .main-section{
-            float:none;
+            /*float:none;*/
             max-width: 575px;
-            
-            
+         
         }
 
 
@@ -265,22 +265,19 @@ body {
 
         #masthead {
             position: static;
-
         }
          
         #logo {
             width:100%;
-
         }
 
         nav {
             /*float: none;*/
             text-align: center;
             width: 100%;
-            margin-bottom:25px;
-           
-
-
+            margin-bottom:36px;
+            margin-top:36px;
+          
         }
 
 
@@ -289,7 +286,15 @@ body {
             width:100%;
         }
             
+        .work {
+            width:100%;
+        }
 
+        ul {
+            width:75%;
+            
+
+        }
         }   
 
 
